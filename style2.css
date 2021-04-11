@@ -1,0 +1,73 @@
+/* Loading Page */
+html.wf-loading *{
+  opacity: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar-brand{
+  font-family: Viga;
+  font-size: 28px;
+}
+
+.navbar-brand img{
+  width: 59px;
+  height: 57px;
+}
+
+/* jumbotron */
+.profile {
+  padding-top: 7rem;
+  background-color: #6172DA;
+}
+
+#portofolio{
+  color: #6172DA;
+  background-color: #95c1fc;
+}
+
+
+section{
+  padding-top: 10rem;
+}
+
+
+h1{
+  font-family: 'Viga';
+}
+h2{
+  color: #6172DA;
+  font-family: 'Viga';
+}
+p{
+  font-family: 'Poppins';
+}
+.email{
+  color: #6172DA;
+}
+
+
+
+/* Destop Version */
+
+@media (min-width: 992px) {
+  .nav-link{
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #fcfafd;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
